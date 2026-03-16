@@ -3,6 +3,10 @@
 ======================= */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* =======================
    Global Styles
 ======================= */
@@ -253,7 +257,8 @@ a {
 .contact {
     text-align: center;
     padding: 60px 20px;
-    background-color: #f9f9f9;
+    background-color: #865439;
+    color: #D7B19D;
 }
 
 .contact h2 {
@@ -270,7 +275,7 @@ a {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 25px;
-    background-color: #007bff;
+    background-color: #C68B59;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -286,7 +291,7 @@ a {
 ======================= */
 /* Portfolio gallery styles */
 .portfolio-gallery {
-    padding: 60px 10%;
+    padding: 120px 10% 60px;
     text-align: center;
     background-color: #402218;
     color: #D7B19D;
